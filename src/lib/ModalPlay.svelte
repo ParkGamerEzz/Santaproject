@@ -5,9 +5,6 @@
     let bool = $state(true);
 </script>
 
-
-
-
 <div class="hidden container mx-auto h-screen flex justify-center items-center">
     <div class="rounded-2xl w-1/2 text-center item-center p-5 shadow-lg">
         <h1 class="text-black font-bold">Please <a href="">click</a> To enter the game. </h1>
