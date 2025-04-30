@@ -7,9 +7,5 @@
 </script>
 
 <div class="bg-blue-600 w-screen h-screen">
-    
-    {#each imgGame1 as item}
-    <ImageItem src={item.src} width={item.width} x={item.x} y={item.y} xTarget={item.xTarget} yTarget={item.yTarget}/>
-    {/each}
-    
+    <!-- <img src="https://media1.tenor.com/m/Hj-pA8MTloQAAAAC/karen-kujou-kiniro-mosaic.gif"  alt=""> -->
 </div>

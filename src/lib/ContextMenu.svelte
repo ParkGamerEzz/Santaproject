@@ -1,6 +1,8 @@
 
 
 <script>
+    import { goto } from "$app/navigation";
+
     let pos = { x: 0, y: 0 }
     let menu = { h: 0, y: 0 }
     let browser = { h: 0, y: 0 }
@@ -37,7 +39,7 @@
         }
     }
     function play(){
-        alert("PLAY GAME CLICKED")
+        goto('/playgame')
     }
     
     let menuItems = [

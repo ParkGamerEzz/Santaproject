@@ -1,6 +1,7 @@
 <script>
     import { onMount } from 'svelte';
     import ContextMenu from '$lib/ContextMenu.svelte';
+    // import ModalPlay from '$lib/ModalPlay.svelte';
     let buttonPosition = { top: '50%', left: '50%' };
     let windowSize = { width: 0, height: 0 };
     let buttonSize = { width: 0, height: 0 };
@@ -70,11 +71,11 @@
       };
     }
   </script>
-  
+
 
   <div>
-  <div class="relative w-full h-screen bg-blue-200 overflow-hidden">
-
+    
+  <div class="h-screen bg-blue-200 overflow-hidden">
     
     <div class="absolute inset-0 bg-gradient-to-b from-blue-400 to-blue-600 z-0"></div>
     
@@ -88,6 +89,7 @@
     <div>
     
 </div>
+
     <div on:click={chrismasester} style="transition: bottom 5s, left 0.3s;"class="bottom-{chrispos} absolute bottom-0 right-10 text-6xl z-11;">🎄</div>
     
     <h1 class="absolute top-10 left-1/2 transform -translate-x-1/2 text-5xl font-bold text-black z-20">
